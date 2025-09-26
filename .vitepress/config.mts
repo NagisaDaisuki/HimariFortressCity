@@ -1,5 +1,6 @@
 import { defineConfigWithTheme } from 'vitepress'
 import mdItCustomAttrs from 'markdown-it-custom-attrs'
+
 export interface ThemeConfig {
   //navBar
   menuList: { name: string; url: string }[]
@@ -68,6 +69,9 @@ export default defineConfigWithTheme<ThemeConfig>({
   // sitemap: {
   //   hostname: 'https://vitepress-theme-bluearchive.vercel.app',
   // },
+
+  base: '/',
+
   title: "Sensei's 部落格",
   description: "Sensei's 部落格",
   themeConfig: {
