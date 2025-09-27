@@ -33,34 +33,34 @@ const spineVoiceLang = themeConfig.spineVoiceLang
 
 import { spine } from './spine-player.js'
 
-// 1. 尝试获取 VitePress 提供的 base 路径
-const { site } = useData();
-const base = site.value.base || '/'; // 这应该得到 /HimariFortressCity/
-// 2. 定义 Spine 文件的相对路径
-const aronarelativePathSkel = 'spine_assets/arona/arona_spr.skel';
-const aronarelativePathAtlas = 'spine_assets/arona/arona_spr.atlas';
-
-const planarelativePathSkel = 'spine_assets/plana/plana_spr.skel';
-const planarelativePathAtlas = 'spine_assets/plana/plana_spr.atlas';
-
-// 3. 构造正确的绝对路径
-const aronaSkelUrl = computed(() => {
-    // 拼接 base 路径和相对路径。
-    // 如果 base 是 /HimariFortressCity/，那么路径就是 /HimariFortressCity/spine_assets/...
-    return `${base}${aronarelativePathSkel}`;
-});
-
-const planaSkelUrl = computed(() => {
-    return `${base}${planarelativePathSkel}`;
-});
-
-const aronaAtlasUrl = computed(() => {
-    return `${base}${aronarelativePathAtlas}`;
-});
-
-const planaAtlasUrl = computed(() => {
-    return `${base}${planarelativePathAtlas}`;
-});
+//// 1. 尝试获取 VitePress 提供的 base 路径
+//const { site } = useData();
+//const base = site.value.base || '/'; // 这应该得到 /HimariFortressCity/
+//// 2. 定义 Spine 文件的相对路径
+//const aronarelativePathSkel = 'spine_assets/arona/arona_spr.skel';
+//const aronarelativePathAtlas = 'spine_assets/arona/arona_spr.atlas';
+//
+//const planarelativePathSkel = 'spine_assets/plana/plana_spr.skel';
+//const planarelativePathAtlas = 'spine_assets/plana/plana_spr.atlas';
+//
+//// 3. 构造正确的绝对路径
+//const aronaSkelUrl = computed(() => {
+//    // 拼接 base 路径和相对路径。
+//    // 如果 base 是 /HimariFortressCity/，那么路径就是 /HimariFortressCity/spine_assets/...
+//    return `${base}${aronarelativePathSkel}`;
+//});
+//
+//const planaSkelUrl = computed(() => {
+//    return `${base}${planarelativePathSkel}`;
+//});
+//
+//const aronaAtlasUrl = computed(() => {
+//    return `${base}${aronarelativePathAtlas}`;
+//});
+//
+//const planaAtlasUrl = computed(() => {
+//    return `${base}${planarelativePathAtlas}`;
+//});
 
 
 
