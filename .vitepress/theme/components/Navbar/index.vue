@@ -8,7 +8,8 @@
         <ul>
           <li v-for="item in menuList">
             <a :href="isExternal(item.url) ? item.url : base + item.url"
-              @click="handleNavClick(item.url)"
+
+              @click="!isExternal(item.url) && handleNavClick(item.url)"
             >
               {{ item.name }}
             </a>
