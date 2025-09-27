@@ -7,8 +7,16 @@
       <span class="menu">
         <ul>
           <li v-for="item in menuList">
-            <a :href="base + item.url" @click="handleNavClick(item.url)">{{ item.name }}</a>
-          </li>
+            <a :href="isExternal(item.url) ? item.url : base + item.url"
+              @click="handleNavClick(item.url)"
+            >
+              {{ item.name }}
+            </a>
+<!--  在a内添加跳转页面打开
+  :target="isExternal(item.url) ? '_blank' : '_self'"
+  :rel="isExternal(item.url) ? 'noopener noreferrer' : undefined"
+-->
+      </li>
         </ul>
       </span>
       <div
@@ -32,6 +40,12 @@ import { useData } from 'vitepress'
 const base = useData().site.value.base
 const themeConfig = useData().theme.value
 const menuList = themeConfig.menuList
+
+// 🚨 添加这个函数来检查 URL 是否为外部链接
+const isExternal = (url: string): boolean => {
+  return /^https?:\/\//.test(url)
+}
+
 
 import { useStore } from '../../store'
 const { state } = useStore()

@@ -81,7 +81,14 @@ export default defineConfigWithTheme<ThemeConfig>({
     menuList: [
       { name: '首页', url: '' },
       { name: '标签', url: 'tags/' },
-      { name: '要塞都市', url: 'https://nagisadaisuki.github.io/' },
+
+      { name: '要塞都市',
+
+        url: 'https://nagisadaisuki.github.io/',
+
+        //target: '_blank', // 在新标签页打开
+        //rel: 'noopener noreferrer' // 安全属性
+      },
     ],
 
     //banner区配置
