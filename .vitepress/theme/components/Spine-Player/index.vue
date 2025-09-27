@@ -36,8 +36,8 @@ import { spine } from './spine-player.js'
 // 定义两套spine资产信息
 const spineAssets = {
   arona: {
-    skelUrl: "/spine_assets/arona/arona_spr.skel",
-    atlasUrl: "/spine_assets/arona/arona_spr.atlas",
+    skelUrl: "spine_assets/arona/arona_spr.skel",
+    atlasUrl: "spine_assets/arona/arona_spr.atlas",
     idleAnimationName: "Idle_01",
     eyeCloseAnimationName: "Eye_Close_01",
     rightEyeBone: "R_Eye_01",
@@ -47,40 +47,40 @@ const spineAssets = {
     eyeRotationAngle: 76.307,
     voiceConfig: [
       {
-        audio: `/spine_assets/arona/audio/${spineVoiceLang}/arona_01.ogg`,
+        audio: `spine_assets/arona/audio/${spineVoiceLang}/arona_01.ogg`,
         animation: '12',
         text: '您回来了？我等您很久啦！'
       },
       {
-        audio: `/spine_assets/arona/audio/${spineVoiceLang}/arona_02.ogg`,
+        audio: `spine_assets/arona/audio/${spineVoiceLang}/arona_02.ogg`,
         animation: '03',
         text: '嗯，不错，今天也是个好天气。'
       },
       {
-        audio: `/spine_assets/arona/audio/${spineVoiceLang}/arona_03.ogg`,
+        audio: `spine_assets/arona/audio/${spineVoiceLang}/arona_03.ogg`,
         animation: '02',
         text: '天空真是广啊……\n另一边会有些什么呢？'
       },
       {
-        audio: `/spine_assets/arona/audio/${spineVoiceLang}/arona_04.ogg`,
+        audio: `spine_assets/arona/audio/${spineVoiceLang}/arona_04.ogg`,
         animation: '18',
         text: '偶尔也要为自己的健康着想啊，\n老师，我会很担心的。'
       },
       {
-        audio: `/spine_assets/arona/audio/${spineVoiceLang}/arona_05.ogg`,
+        audio: `spine_assets/arona/audio/${spineVoiceLang}/arona_05.ogg`,
         animation: '25',
         text: '来，加油吧，老师！'
       },
       {
-        audio: `/spine_assets/arona/audio/${spineVoiceLang}/arona_06.ogg`,
+        audio: `spine_assets/arona/audio/${spineVoiceLang}/arona_06.ogg`,
         animation: '11',
         text: '今天又会有什么事情在等着我呢？'
       }
     ]
   },
   plana: {
-    skelUrl: "/spine_assets/plana/plana_spr.skel",
-    atlasUrl: "/spine_assets/plana/plana_spr.atlas",
+    skelUrl: "spine_assets/plana/plana_spr.skel",
+    atlasUrl: "spine_assets/plana/plana_spr.atlas",
     idleAnimationName: "Idle_01",
     eyeCloseAnimationName: "Eye_Close_01",
     rightEyeBone: "R_Eye_01",
@@ -90,27 +90,27 @@ const spineAssets = {
     eyeRotationAngle: 97.331,
     voiceConfig: [
       {
-        audio: `/spine_assets/plana/audio/${spineVoiceLang}/plana_02.ogg`,
+        audio: `spine_assets/plana/audio/${spineVoiceLang}/plana_02.ogg`,
         animation: '06',
         text: '我明白了，\n老师现在无事可做，很无聊。'
       },
       {
-        audio: `/spine_assets/plana/audio/${spineVoiceLang}/plana_01.ogg`,
+        audio: `spine_assets/plana/audio/${spineVoiceLang}/plana_01.ogg`,
         animation: '13',
         text: '混乱，该行动无法理解。\n请不要戳我，会出现故障。'
       },
       {
-        audio: `/spine_assets/plana/audio/${spineVoiceLang}/plana_03.ogg`,
+        audio: `spine_assets/plana/audio/${spineVoiceLang}/plana_03.ogg`,
         animation: '15',
         text: '确认连接。'
       },
       {
-        audio: `/spine_assets/plana/audio/${spineVoiceLang}/plana_04.ogg`,
+        audio: `spine_assets/plana/audio/${spineVoiceLang}/plana_04.ogg`,
         animation: '99',
         text: '正在待命，\n需要解决的任务还有很多。'
       },
       {
-        audio: `/spine_assets/plana/audio/${spineVoiceLang}/plana_05.ogg`,
+        audio: `spine_assets/plana/audio/${spineVoiceLang}/plana_05.ogg`,
         animation: '17',
         text: '等您很久了。'
       },

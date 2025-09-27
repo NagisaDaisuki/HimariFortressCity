@@ -29,8 +29,11 @@ export interface ThemeConfig {
 
 export default defineConfigWithTheme<ThemeConfig>({
   lang: 'zh-CN',
+
+  base: '/HimariFortressCity/',
+
   head: [
-    ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
+    ['link', { rel: 'shortcut icon', href: 'favicon.ico' }],
     // gitalk
     ['link', { rel: 'stylesheet', href: 'https://unpkg.com/gitalk/dist/gitalk.css' }],
     ['script', { src: 'https://unpkg.com/gitalk/dist/gitalk.min.js' }],
@@ -39,14 +42,14 @@ export default defineConfigWithTheme<ThemeConfig>({
       'link',
       {
         rel: 'stylesheet',
-        href: '/font/Blueaka/Blueaka.css',
+        href: 'font/Blueaka/Blueaka.css',
       },
     ],
     [
       'link',
       {
         rel: 'stylesheet',
-        href: '/font/Blueaka_Bold/Blueaka_Bold.css',
+        href: 'font/Blueaka_Bold/Blueaka_Bold.css',
       },
     ],
     // 图片灯箱
@@ -66,14 +69,13 @@ export default defineConfigWithTheme<ThemeConfig>({
   ],
   ignoreDeadLinks: true,
   // 生成站点地图
-  // sitemap: {
-  //   hostname: 'https://vitepress-theme-bluearchive.vercel.app',
-  // },
+  sitemap: {
+     hostname: 'https://nagisadaisuki.github.io/HimariFortressCity/',
+  },
 
-  base: '/HimariFortressCity/',
 
-  title: "Sensei's 部落格",
-  description: "Sensei's 部落格",
+  title: "Himari's 要塞都市",
+  description: "Himari's Blog",
   themeConfig: {
     // navBar
     menuList: [
@@ -82,22 +84,22 @@ export default defineConfigWithTheme<ThemeConfig>({
     ],
 
     //banner区配置
-    videoBanner: false,
-    name: "Sensei's 部落格",
-    welcomeText: 'Hello, VitePress',
-    motto: ['和你的日常，就是奇迹', '何気ない日常で、ほんの少しの奇跡を見つける物語。'],
+    videoBanner: true,
+    name: "Himari's 要塞都市",
+    welcomeText: '涼やかなる夢想の可能性',
+    motto: ['呵呵，轮到千禧的超天才清楚系病弱美少女黑客出场了吗？', 'Heh, Is it time for Millennium\'s most beautifully dainty super genius hacker to come into bloom?'],
     social: [
-      { icon: 'github', url: 'https://github.com/' },
-      { icon: 'bilibili', url: 'https://www.bilibili.com/' },
-      { icon: 'qq', url: 'https://im.qq.com/index/' },
-      { icon: 'wechat', url: 'https://weixin.qq.com/' },
+      { icon: 'github', url: 'https://github.com/NagisaDaisuki/' },
+      { icon: 'bilibili', url: 'https://space.bilibili.com/275096023' },
+      //{ icon: 'qq', url: 'https://im.qq.com/index/' },
+      //{ icon: 'wechat', url: 'https://weixin.qq.com/' },
     ],
 
     //spine语音配置，可选zh/jp
     spineVoiceLang: 'jp',
 
     //footer配置
-    footerName: 'Sensei',
+    footerName: 'Himari',
     poweredList: [
       { name: 'VitePress', url: 'https://github.com/vuejs/vitepress' },
       { name: 'GitHub Pages', url: 'https://docs.github.com/zh/pages' },
@@ -106,9 +108,9 @@ export default defineConfigWithTheme<ThemeConfig>({
     //gitalk配置
     clientID: 'Ov23lia9U9wFN3WMyoKK',
     clientSecret: 'b2418ab598c188c43a247c99e728dd2735d58c3b',
-    repo: 'vitepress-theme-bluearchive',
-    owner: 'Alittfre',
-    admin: ['Alittfre'],
+    repo: 'HimariFortressCity',
+    owner: 'NagisaDaisuki',
+    admin: ['NagisaDaisuki'],
   },
   markdown: {
     theme: 'solarized-dark',
