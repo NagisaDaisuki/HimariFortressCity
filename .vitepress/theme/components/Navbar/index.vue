@@ -7,9 +7,11 @@
       <span class="menu">
         <ul>
           <li v-for="item in menuList">
-            <a :href="isExternal(item.url) ? item.url : base + item.url"
+            <a  :href="isExternal(item.url) ? item.url : base + item.url"
 
-              @click="!isExternal(item.url) && handleNavClick(item.url)"
+                :target="isExternal(item.url) ? '_blank' : '_self'"
+                :rel="isExternal(item.url) ? 'noopener noreferrer' : undefined"
+                @click="!isExternal(item.url) && handleNavClick(item.url)"
             >
               {{ item.name }}
             </a>
