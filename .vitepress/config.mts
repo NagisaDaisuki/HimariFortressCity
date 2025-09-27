@@ -70,7 +70,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   ignoreDeadLinks: true,
   // 生成站点地图
   sitemap: {
-     hostname: 'https://nagisadaisuki.github.io/HimariFortressCity/',
+     hostname: 'https://nagisadaisuki.github.io/HimariFortressCity',
   },
 
 
@@ -106,11 +106,12 @@ export default defineConfigWithTheme<ThemeConfig>({
     ],
 
     //gitalk配置
-    clientID: 'Ov23lia9U9wFN3WMyoKK',
-    clientSecret: 'b2418ab598c188c43a247c99e728dd2735d58c3b',
+    clientID: 'Ov23liqksFeregUyPjS3',
+    clientSecret: '9e75615ffa8ec25e58609908cfb1cc74761b39ae',
     repo: 'HimariFortressCity',
     owner: 'NagisaDaisuki',
     admin: ['NagisaDaisuki'],
+    //id: location.pathname, // Ensure uniqueness and length less than 50
   },
   markdown: {
     theme: 'solarized-dark',

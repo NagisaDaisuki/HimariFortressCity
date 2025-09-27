@@ -1,13 +1,13 @@
-# vitepress-theme-bluearchive
+# Inherited from vitepress-theme-bluearchive
 
 ![logo](.vitepress/theme/assets/icon/footLogo.svg)
 
-BA 主题博客，基于 VitePress，绝赞画饼中
+Alittfre佬的BA主题博客，基于VitePress
 
-[在线预览](https://vitepress-theme-bluearchive.vercel.app/)
+[Online-Preview](https://vitepress-theme-bluearchive.vercel.app/)
 
-![preview](./preview.webp)
-![preview_dark](./preview_dark.webp)
+![preview](./my_preview.webp)
+![preview_dark](./my_preview_dark.webp)
 
 ## 功能
 
