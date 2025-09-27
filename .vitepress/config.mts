@@ -86,8 +86,8 @@ export default defineConfigWithTheme<ThemeConfig>({
 
         url: 'https://nagisadaisuki.github.io/',
 
-        //target: '_blank', // 在新标签页打开
-        //rel: 'noopener noreferrer' // 安全属性
+        target: '_blank', // 在新标签页打开
+        rel: 'noopener noreferrer' // 安全属性
       },
     ],
 
