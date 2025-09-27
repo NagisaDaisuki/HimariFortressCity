@@ -1,5 +1,5 @@
 ---
-title: C与指针笔记_4-6
+title: C与指针笔记4-6
 date: 2025-09-20
 tags: [C]
 pinned: false

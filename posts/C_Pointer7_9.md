@@ -1,5 +1,5 @@
 ---
-title: C与指针笔记_7-9 
+title: C与指针笔记7-9 
 date: 2025-09-24
 tags: [C]
 pinned: false
