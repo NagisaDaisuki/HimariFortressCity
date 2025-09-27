@@ -33,7 +33,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   base: '/HimariFortressCity/',
 
   head: [
-    ['link', { rel: 'shortcut icon', href: 'favicon.ico' }],
+    ['link', { rel: 'shortcut icon', href: './favicon.ico' }],
     // gitalk
     ['link', { rel: 'stylesheet', href: 'https://unpkg.com/gitalk/dist/gitalk.css' }],
     ['script', { src: 'https://unpkg.com/gitalk/dist/gitalk.min.js' }],
@@ -42,14 +42,14 @@ export default defineConfigWithTheme<ThemeConfig>({
       'link',
       {
         rel: 'stylesheet',
-        href: 'font/Blueaka/Blueaka.css',
+        href: './font/Blueaka/Blueaka.css',
       },
     ],
     [
       'link',
       {
         rel: 'stylesheet',
-        href: 'font/Blueaka_Bold/Blueaka_Bold.css',
+        href: './font/Blueaka_Bold/Blueaka_Bold.css',
       },
     ],
     // 图片灯箱
