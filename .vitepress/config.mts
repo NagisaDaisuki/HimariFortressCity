@@ -70,7 +70,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   //   hostname: 'https://vitepress-theme-bluearchive.vercel.app',
   // },
 
-  base: '/himaridaisuki.github.io/',
+  base: '/HimariFortressCity/',
 
   title: "Sensei's 部落格",
   description: "Sensei's 部落格",
