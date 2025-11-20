@@ -64,13 +64,13 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Deploy to Tencent Server
-        uses: easingthemes/ssh-deploy@v4.1.8
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          ARGS: "-rltgoDzvO --delete"
-          source: ".vitepress/dist/" # VitePress默认生成路径
-          REMOTE_HOST: ${{ secrets.SERVER_IP }}
-          REMOTE_USER: ${{ secrets.SERVER_USER }}
-          TARGET: "/www/wwwroot/himari.nagisadaisuki.icu/" # 【重点】宝塔里对应的网站根目录
-          EXCLUDE: "/node_modules/"
+      #- name: Deploy to Tencent Server
+      #  uses: easingthemes/ssh-deploy@v4.1.8
+      #  env:
+      #    SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+      #    ARGS: "-rltgoDzvO --delete"
+      #    source: ".vitepress/dist/" # VitePress默认生成路径
+      #    REMOTE_HOST: ${{ secrets.SERVER_IP }}
+      #    REMOTE_USER: ${{ secrets.SERVER_USER }}
+      #    TARGET: "/www/wwwroot/himari.nagisadaisuki.icu/" # 【重点】宝塔里对应的网站根目录
+      #    EXCLUDE: "/node_modules/"
