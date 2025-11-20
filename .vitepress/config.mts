@@ -30,7 +30,7 @@ export interface ThemeConfig {
 export default defineConfigWithTheme<ThemeConfig>({
   lang: 'zh-CN',
 
-  base: '/HimariFortressCity/',
+  base: '/',  // '/HimariFortressCity/',
 
   head: [
     ['link', { rel: 'shortcut icon', href: '/HimariFortressCity/favicon.ico' }],
