@@ -67,7 +67,7 @@ jobs:
       - name: Deploy to Tencent Server
         uses: easingthemes/ssh-deploy@v4.1.8
         env:
-          SSH_PRIVATE_KEY: ${{ secret.SSH_PRIVATE_KEY }}
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           ARGS: "-rltgoDzvO --delete"
           source: ".vitepress/dist/" # VitePress默认生成路径
           REMOTE_HOST: ${{ secrets.SERVER_IP }}
